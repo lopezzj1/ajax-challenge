@@ -11,3 +11,41 @@ body {
     margin-right: 10px;
 }
 
+.required-field:after {
+    content: ' *';
+    color: #FF0000;
+}
+
+
+main {
+    background-color: #C2C2C2;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    margin-top: 0px;
+}
+
+#emptyComment {
+    display: none;
+}
+
+article {
+    padding: 1em;
+}
+
+#commentSection {
+    background-color: white;
+	border-bottom-color: #4EA1D9;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+
+}
+
+
+
+.submit {
+	background: #4EA1D9;
+	color: white;
+}
+
+
